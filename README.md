@@ -6,7 +6,10 @@ AVideo is a fork of Youtube. The goal of this project is to deploy the program i
 
 There are two A0 Ubuntu VM with Standard HDD as well as an azure MYSQL service.
 
-After deployment you will navigate to the public ip address of each VM and navigate to the addresses as follows http://[public-ip]/AVideo and http://[public-ip]/AVideo-Encoder.
+After deployment you will navigate to the public ip address of each VM and navigate to the addresses as follows:
+
+- http://[public-ip]/AVideo 
+- http://[public-ip]/AVideo-Encoder.
 
 From there you will go through the setup process of the site. You will need the database username and password you set during deployment as well as the full url asociated with the MYSQL service. After that the site will ask you to delete a folder on each of the VM's. This can not be autometed as the folder is required for initial setup. Because of this, the SSH port is accessable for easily connecting to the VM and removing the folders. It is advised that after the folder is removed, close the SSH port on both VM's
 
