@@ -28,8 +28,8 @@ You must also configure the Platform to communicate with the Encoder. This is do
 5. Operations Excellence - Deployment of the service is automated as well as only the needed ports are open to the public internet.
 
 ## Services Used
-Here is a list of all the services installed on both VM's
-- apache2 
+Here is a list of all the services installed on both VM's. Each services is a requirement for the AVideo site to function acording to their documentation
+- apache2
 - php 
 - libapache2-mod-php 
 - php-mysql 
@@ -45,7 +45,13 @@ Here is a list of all the services installed on both VM's
 - php-gettext 
 - python
 
+## High Availbility
+The site does support multiple encoders but it is unclear as to how to have multiple platforms running.
+
 ## Future Revisions
 Future additions would be to add another server/storage for external storage support.
 
 Other Future Additions would include the ability to have multiple Platforms serving making it possible to scale out instead of just up.
+
+## Link to AVideo Github Repo
+https://github.com/WWBN/AVideo
