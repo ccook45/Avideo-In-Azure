@@ -4,7 +4,7 @@
 
 AVideo is a fork of Youtube. The goal of this project is to deploy the program in Azure.
 
-There are two A0 Ubuntu VM with Standard HDD as well as an azure MYSQL service.
+There are two A0 Ubuntu VM with Standard HDD's as well as an Azure MYSQL service.
 
 After deployment you will navigate to the public ip address of each VM and navigate to the addresses as follows:
 
