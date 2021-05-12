@@ -296,8 +296,7 @@
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "storageAccountType": "Standard_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_Avideo_Encoder_name'), '_OsDisk_1_49a974ea28724a66b7af91e1a1fef288'))]"
+                            "storageAccountType": "Standard_LRS"
                         },
                         "diskSizeGB": 30
                     },
@@ -357,8 +356,7 @@
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "storageAccountType": "Standard_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_Avideo_Platform_name'), '_OsDisk_1_2647089333e94dbcb91019f44519090c'))]"
+                            "storageAccountType": "Standard_LRS"
                         },
                         "diskSizeGB": 30
                     },
