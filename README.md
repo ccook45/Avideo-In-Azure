@@ -11,6 +11,8 @@ After deployment you will navigate to the public ip address of each VM and navig
 - http://[public-ip]/AVideo 
 - http://[public-ip]/AVideo-Encoder.
 
+### Extra Deployment Instructions
+
 From there you will go through the setup process of the site. You will need the database username and password you set during deployment as well as the full url asociated with the MYSQL service. After that the site will ask you to delete a folder on each of the VM's. This can not be autometed as the folder is required for initial setup. Because of this, the SSH port is accessable for easily connecting to the VM and removing the folders. It is advised that after the folder is removed, close the SSH port on both VM's
 
 You must also configure the Platform to communicate with the Encoder. This is done by loging into the Platform and setting the url of the Encoder in the settings.
