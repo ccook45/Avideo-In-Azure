@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt update && sudo apt-get -y install apache2 php libapache2-mod-php php-mysql php-curl php-gd php-intl mysql-server mysql-client ffmpeg git libimage-exiftool-perl php-mbstring php-gettext python && cd /var/www/html && sudo git clone https://github.com/WWBN/AVideo.git && sudo a2enmod rewrite && sudo phpenmod mbstring && sudo systemctl restart apache2
 sudo sed -z 's/<Directory \/var\/www\/>\n\tOptions Indexes FollowSymLinks\n\tAllowOverride None/<Directory \/var\/www\/>\n\tOptions Indexes FollowSymLinks\n\tAllowOverride All/' -i /etc/apache2/apache2.conf
 sudo a2enmod rewrite
