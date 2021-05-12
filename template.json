@@ -630,7 +630,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-              "uri[https://github.com/ccook45/Avideo-In-Azure/blob/61d63ddb9b9722820e71928b3b5fea90c412d6bf/install_encoder.sh]"
+              "https://github.com/ccook45/Avideo-In-Azure/blob/61d63ddb9b9722820e71928b3b5fea90c412d6bf/install_encoder.sh"
             ],
           "commandToExecute": "sh install_encoder.sh"
         }
@@ -651,7 +651,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-              "uri[https://github.com/ccook45/Avideo-In-Azure/blob/61d63ddb9b9722820e71928b3b5fea90c412d6bf/install_platform.sh]"
+              "https://github.com/ccook45/Avideo-In-Azure/blob/61d63ddb9b9722820e71928b3b5fea90c412d6bf/install_platform.sh"
             ],
           "commandToExecute": "sh install_platform.sh"
         }
