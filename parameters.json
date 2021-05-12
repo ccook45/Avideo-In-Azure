@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "servers_avideo_mysql_name": {
+            "value": null
+        },
+        "servers_avideo_mysql_username": {
+            "value": null
+        },
+        "servers_avideo_mysql_password": {
+            "value": null
+        },
+        "virtualNetworks_rg_cook_vnet_name": {
+            "value": null
+        },
+        "virtualMachines_Avideo_Encoder_name": {
+            "value": null
+        },
+        "virtualMachines_Avideo_Encoder_username": {
+            "value": null
+        },
+        "virtualMachines_Avideo_Encoder_password": {
+            "value": null
+        },
+        "virtualMachines_Avideo_Platform_name": {
+            "value": null
+        },
+        "virtualMachines_Avideo_Platform_username": {
+            "value": null
+        },
+        "virtualMachines_Avideo_Platform_password": {
+            "value": null
+        },
+        "networkInterfaces_avideo_encoder212_name": {
+            "value": null
+        },
+        "publicIPAddresses_Avideo_Encoder_ip_name": {
+            "value": null
+        },
+        "networkInterfaces_avideo_platform342_name": {
+            "value": null
+        },
+        "publicIPAddresses_Avideo_Platform_ip_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Avideo_Encoder_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Avideo_Platform_nsg_name": {
+            "value": null
+        },
+        "schedules_shutdown_computevm_avideo_encoder_name": {
+            "value": null
+        },
+        "schedules_shutdown_computevm_avideo_platform_name": {
+            "value": null
+        }
+    }
+}
