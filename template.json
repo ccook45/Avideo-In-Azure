@@ -291,10 +291,7 @@
                         "version": "latest"
                     },
                     "osDisk": {
-                        "osType": "Linux",
-                        "name": "[concat(parameters('virtualMachines_Avideo_Encoder_name'), '_OsDisk_1_49a974ea28724a66b7af91e1a1fef288')]",
                         "createOption": "FromImage",
-                        "caching": "ReadWrite",
                         "managedDisk": {
                             "storageAccountType": "Standard_LRS"
                         },
@@ -351,10 +348,7 @@
                         "version": "latest"
                     },
                     "osDisk": {
-                        "osType": "Linux",
-                        "name": "[concat(parameters('virtualMachines_Avideo_Platform_name'), '_OsDisk_1_2647089333e94dbcb91019f44519090c')]",
                         "createOption": "FromImage",
-                        "caching": "ReadWrite",
                         "managedDisk": {
                             "storageAccountType": "Standard_LRS"
                         },
