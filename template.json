@@ -305,7 +305,6 @@
                     "adminPassword": "[parameters('virtualMachines_Avideo_Encoder_password')]",
                     "linuxConfiguration": {
                         "disablePasswordAuthentication": false,
-                        "provisionVMAgent": true,
                         "patchSettings": {
                             "patchMode": "ImageDefault"
                         }
@@ -361,7 +360,6 @@
                     "adminPassword": "[parameters('virtualMachines_Avideo_Platform_password')]",
                     "linuxConfiguration": {
                         "disablePasswordAuthentication": false,
-                        "provisionVMAgent": true,
                         "patchSettings": {
                             "patchMode": "ImageDefault"
                         }
