@@ -7,11 +7,9 @@
             "type": "String"
         },
         "servers_avideo_mysql_username": {
-            "defaultValue": "",
             "type": "string"
         },
         "servers_avideo_mysql_password": {
-            "defaultValue": "",
             "type": "string"
         },
         "virtualNetworks_rg_cook_vnet_name": {
@@ -23,11 +21,9 @@
             "type": "String"
         },
         "virtualMachines_Avideo_Encoder_username": {
-            "defaultValue": "",
             "type": "string"
         },
         "virtualMachines_Avideo_Encoder_password": {
-            "defaultValue": "",
             "type": "string"
         },
         "virtualMachines_Avideo_Platform_name": {
@@ -35,11 +31,9 @@
             "type": "String"
         },
         "virtualMachines_Avideo_Platform_username": {
-            "defaultValue": "",
             "type": "string"
         },
         "virtualMachines_Avideo_Platform_password": {
-            "defaultValue": "",
             "type": "string"
         },
         "networkInterfaces_avideo_encoder212_name": {
