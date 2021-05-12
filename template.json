@@ -632,7 +632,7 @@
           "fileUris": [
               "https://github.com/ccook45/Avideo-In-Azure/blob/61d63ddb9b9722820e71928b3b5fea90c412d6bf/install_encoder.sh"
             ],
-          "commandToExecute": "sudo sh install_encoder.sh"
+          "commandToExecute": "sh install_encoder.sh"
         }
       }
     },
@@ -653,7 +653,7 @@
           "fileUris": [
               "https://github.com/ccook45/Avideo-In-Azure/blob/61d63ddb9b9722820e71928b3b5fea90c412d6bf/install_platform.sh"
             ],
-          "commandToExecute": "sudo sh install_platform.sh"
+          "commandToExecute": "sh install_platform.sh"
         }
       }
     }
