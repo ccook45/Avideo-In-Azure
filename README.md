@@ -9,7 +9,7 @@ There are two A0 Ubuntu VM with Standard HDD's as well as an Azure MYSQL service
 After deployment you will navigate to the public ip address of each VM and navigate to the addresses as follows:
 
 - http://[public-ip]/AVideo 
-- http://[public-ip]/AVideo-Encoder.
+- http://[public-ip]/AVideo-Encoder
 
 ### Extra Deployment Instructions
 
